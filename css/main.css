@@ -75,16 +75,16 @@ h2.title a {
 }
 .lx-navigation .prev {
   transition: 0.5s;
-  text-align: right;
-  border-radius: 0 15px 15px 0;
+  text-align: left;
+  border-radius: 15px 0 0 15px;
 }
 .lx-navigation .prev:hover {
   padding-right: 30px;
 }
 .lx-navigation .next {
   transition: 0.5s;
-  text-align: left;
-  border-radius: 15px 0 0 15px;
+  text-align: right;
+  border-radius: 0 15px 15px 0;
 }
 .lx-navigation .next:hover {
   padding-left: 30px;
@@ -109,10 +109,10 @@ h2.title a {
   z-index: 1;
 }
 .lx-navigation .next .overlay {
-  border-radius: 15px 0 0 15px;
+  border-radius: 0 15px 15px 0;
 }
 .lx-navigation .prev .overlay {
-  border-radius: 0 15px 15px 0;
+  border-radius: 15px 0 0 15px;
 }
 .lx-navigation .lx-cover .copy {
   position: relative;

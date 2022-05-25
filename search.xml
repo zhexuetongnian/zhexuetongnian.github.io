@@ -16,12 +16,14 @@
 <p>这是我的第一篇正式博客，主要用来测试各种格式的内容能否正确部署。</p>
 <span id="more"></span>
 
-<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><center>
-![567](first-blog/567_6.jpg)
-</center>
-
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><img src="/2022/05/21/first-blog/567_6.jpg" alt="567"></p>
 <p><img src="/2022/05/21/first-blog/13_3-16534500390181.jpg" alt="梅花十三"></p>
 <p><img src="/2022/05/21/first-blog/mona-loading-default-16534500425902.gif" alt="动图"></p>
+<p>图片居中</p>
+<div align="center">
+    <img src="/2022/05/21/first-blog/mona-loading-default-16534500425902.gif">
+</div>
+
 <h2 id="Mathjax公式"><a href="#Mathjax公式" class="headerlink" title="Mathjax公式"></a>Mathjax公式</h2><ul>
 <li><p>行内公式：\(F&#x3D;\frac{GMm}{r^2}\)</p>
 </li>
