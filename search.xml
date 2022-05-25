@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/05/03/hello-world/</url>
+    <content><![CDATA[<p>Hello, guys! </p>
+<p>This is my first post. Although I came across lots of difficulties, I eventually finished the basic frame. So I wrote this post to record this historical moment. </p>
+<p>I am not trying to make this site known to many people. I just want this site to be a friend who can sincerely listen to my happiness and complaints.</p>
+<p>Thus, this is a fresh start and I will sting to update my blog. If you are coincidently interested in my content, welcome to <span class="label primary">follow</span>, <span class="label success">comment</span> and <span class="label danger">share</span>!</p>
+]]></content>
+  </entry>
+  <entry>
     <title>First blog</title>
     <url>/2022/05/21/first-blog/</url>
     <content><![CDATA[<p>This is my first formal blog, which is mainly used to test the deployment of content in various formats.</p>
 <p>这是我的第一篇正式博客，主要用来测试各种格式的内容能否正确部署。</p>
 <span id="more"></span>
 
-<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><img src="/2022/05/21/first-blog/567_6.jpg" alt="567"></p>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><center>
+![567](first-blog/567_6.jpg)
+</center>
+
 <p><img src="/2022/05/21/first-blog/13_3-16534500390181.jpg" alt="梅花十三"></p>
 <p><img src="/2022/05/21/first-blog/mona-loading-default-16534500425902.gif" alt="动图"></p>
 <h2 id="Mathjax公式"><a href="#Mathjax公式" class="headerlink" title="Mathjax公式"></a>Mathjax公式</h2><ul>
@@ -89,14 +101,5 @@
       <tags>
         <tag>Hexo</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/05/03/hello-world/</url>
-    <content><![CDATA[<p>Hello, guys! </p>
-<p>This is my first post. Although I came across lots of difficulties, I eventually finished the basic frame. So I wrote this post to record this historical moment. </p>
-<p>I am not trying to make this site known to many people. I just want this site to be a friend who can sincerely listen to my happiness and complaints.</p>
-<p>Thus, this is a fresh start and I will sting to update my blog. If you are coincidently interested in my content, welcome to <span class="label primary">follow</span>, <span class="label success">comment</span> and <span class="label danger">share</span>!</p>
-]]></content>
   </entry>
 </search>
