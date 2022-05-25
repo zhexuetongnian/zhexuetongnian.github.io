@@ -107,48 +107,80 @@
 <p>这是我的第一篇正式博客，主要用来测试各种格式的内容能否正确部署。</p>
 <span id="more"></span>
 
-<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><img src="/first-blog%5C13.jpg" alt="梅花十三"></p>
-<p><img src="/first-blog%5C13_3.jpg" alt="梅花十三"></p>
-<p><img src="/first-blog%5Cmona-loading-default.gif" alt="动图"></p>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><img src="/.io//first-blog%5C13.jpg" alt="梅花十三"></p>
+<p><img src="/.io//first-blog%5C13_3.jpg" alt="梅花十三"></p>
+<p><img src="/.io//first-blog%5Cmona-loading-default.gif" alt="动图"></p>
 <h2 id="Mathjax公式"><a href="#Mathjax公式" class="headerlink" title="Mathjax公式"></a>Mathjax公式</h2><ul>
 <li><p>行内公式：$\alpha+\beta&#x3D;\gamma$</p>
 </li>
-<li><p>跨行公式：<br>$$<br>\alpha+\beta&#x3D;\gamma<br>$$</p>
+<li><p>跨行公式：</p>
+<p>$$\alpha+\beta&#x3D;\gamma$$</p>
 </li>
-<li><p>复杂的跨行公式：<br>$$<br>\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx<br>$$</p>
+<li><p>复杂的跨行公式：</p>
+<p>$$\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx \sum_{1}^{2}\int_{0}^{1}f(x)dx$$</p>
 </li>
-<li><p>化学方程式：<br>$$<br>\ce{CH2&#x3D;CH2 + Cl2 -&gt; CH2Cl-CH2Cl}<br>$$</p>
+<li><p>化学方程式：</p>
+<p>$$\ce{CH2&#x3D;CH2 + Cl2 -&gt; CH2Cl-CH2Cl}$$</p>
 </li>
 </ul>
 <h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> namespae std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">&quot;hello world!&quot;</span>);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h2 id="Note-tag"><a href="#Note-tag" class="headerlink" title="Note tag"></a>Note tag</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note default%&#125;</span><br><span class="line">### hello world!</span><br><span class="line">hello guys!</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Note-tag"><a href="#Note-tag" class="headerlink" title="Note tag"></a>Note tag</h2><div class="note default">
+            <h3 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world!"></a>hello world!</h3><p>hello guys!</p>
+          </div>
 
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note default%&#125;</span><br><span class="line">### hello world!</span><br><span class="line">hello guys!</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note default%&#125;</span><br><span class="line">### hello world!</span><br><span class="line">hello guys!</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note default%&#125;</span><br><span class="line">### hello world!</span><br><span class="line">hello guys!</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<div class="note default">
+            <h3 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world!"></a>hello world!</h3><p>hello guys!</p>
+          </div>
 
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note default%&#125;</span><br><span class="line">### hello world!</span><br><span class="line">hello guys!</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note default%&#125;</span><br><span class="line">### hello world!</span><br><span class="line">hello guys!</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
 
-<h2 id="Label-tag"><a href="#Label-tag" class="headerlink" title="Label tag"></a>Label tag</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;%label @桃花%&#125;&#123;%label primary@灼灼%&#125;，&#123;%label default@宜室&#125;&#123;%label success@宜家%&#125;。</span><br><span class="line">&#123;%label info@瓜瓞%&#125;&#123;%label danger@绵绵%&#125;，&#123;%label warning@尔昌%&#125;&lt;mark&gt;尔炽&lt;/mark&gt;。</span><br></pre></td></tr></table></figure>
+<div class="note default">
+            <h3 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world!"></a>hello world!</h3><p>hello guys!</p>
+          </div>
+
+
+
+<div class="note default">
+            <h3 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world!"></a>hello world!</h3><p>hello guys!</p>
+          </div>
+
+
+
+<div class="note default">
+            <h3 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world!"></a>hello world!</h3><p>hello guys!</p>
+          </div>
+
+
+
+<div class="note default">
+            <h3 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world!"></a>hello world!</h3><p>hello guys!</p>
+          </div>
+
+
+<h2 id="Label-tag"><a href="#Label-tag" class="headerlink" title="Label tag"></a>Label tag</h2><span class="label default">桃花</span><span class="label primary">灼灼</span>，<span class="label default">宜室}{%label success</span>。
+<span class="label info">瓜瓞</span><span class="label danger">绵绵</span>，<span class="label warning">尔昌</span><mark>尔炽</mark>。
+
 
 <h2 id="Button-tag"><a href="#Button-tag" class="headerlink" title="Button tag"></a>Button tag</h2><ul>
 <li><p>Button 1：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;%btn https://zhexuetongnian.github.io/,my_blog,,title%&#125;</span><br></pre></td></tr></table></figure>
+<a class="btn" href="https://zhexuetongnian.github.io/" title="title">my_blog</a>
+
 </li>
 <li><p>Button 2：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;%btn https://zhexuetongnian.github.io/,my_blog,hand-o-right%&#125;</span><br></pre></td></tr></table></figure>
+<a class="btn" href="https://zhexuetongnian.github.io/"><i class="fa fa-hand-o-right"></i>my_blog</a>
+
 </li>
 <li><p>Button 3：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;%btn https://zhexuetongnian.github.io/,my_blog,hand-o-right fa-fw %&#125;</span><br></pre></td></tr></table></figure></li>
+<a class="btn" href="https://zhexuetongnian.github.io/"><i class="fa fa-hand-o-right fa-fw"></i>my_blog</a></li>
 </ul>
-<h2 id="Center-quote-tag"><a href="#Center-quote-tag" class="headerlink" title="Center-quote tag"></a>Center-quote tag</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;%cq%&#125;  </span><br><span class="line">幽僻处可有人行，点苍苔白露泠泠。&lt;br&gt;&lt;strong&gt;——王实甫&lt;/strong&gt;</span><br><span class="line">&#123;%endcq%&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Center-quote-tag"><a href="#Center-quote-tag" class="headerlink" title="Center-quote tag"></a>Center-quote tag</h2><blockquote class="blockquote-center"><p>幽僻处可有人行，点苍苔白露泠泠。<br><strong>——王实甫</strong></p>
+</blockquote>
 
-<h2 id="Video-tag"><a href="#Video-tag" class="headerlink" title="Video tag"></a>Video tag</h2><video src="first-blog\dog.mp4" preload="metadata" controls playsinline poster="">Sorry, your browser does not support the video tag.</video>
+
+<h2 id="Video-tag"><a href="#Video-tag" class="headerlink" title="Video tag"></a>Video tag</h2><video src="first-blog\dog.mp4" preload="metadata" controls playsinline poster>Sorry, your browser does not support the video tag.</video>
 
 
       </div>
