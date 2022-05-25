@@ -7,9 +7,9 @@
 <p>这是我的第一篇正式博客，主要用来测试各种格式的内容能否正确部署。</p>
 <span id="more"></span>
 
-<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><img src="/.io//13.jpg" alt="梅花十三"></p>
-<p><img src="/.io//13_3.jpg" alt="梅花十三"></p>
-<p><img src="/.io//mona-loading-default.gif" alt="动图"></p>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><img src="/2022/05/21/first-blog/567_6.jpg" alt="567"></p>
+<p><img src="/2022/05/21/first-blog/13_3-16534500390181.jpg" alt="梅花十三"></p>
+<p><img src="/2022/05/21/first-blog/mona-loading-default-16534500425902.gif" alt="动图"></p>
 <h2 id="Mathjax公式"><a href="#Mathjax公式" class="headerlink" title="Mathjax公式"></a>Mathjax公式</h2><ul>
 <li><p>行内公式：\(F&#x3D;\frac{GMm}{r^2}\)</p>
 </li>
@@ -80,7 +80,7 @@
 </blockquote>
 
 
-<h2 id="Video-tag"><a href="#Video-tag" class="headerlink" title="Video tag"></a>Video tag</h2><video src="first-blog/dog.mp4" preload="metadata" controls playsinline poster>Sorry, your browser does not support the video tag.</video>
+<h2 id="Video-tag"><a href="#Video-tag" class="headerlink" title="Video tag"></a>Video tag</h2><video src="dog.mp4" preload="metadata" controls playsinline poster>Sorry, your browser does not support the video tag.</video>
 
 ]]></content>
       <categories>
