@@ -1,0 +1,8 @@
+注意修改vpn的代理： 后面一串代理可在设置-网络-代理-手动设置代理找到
+git config --global http.proxy "127.0.0.1:9666"
+
+注意图片居中</div>后面的空格
+<div align="center">
+    <img src="first-blog/mona-loading-default-16534500425902.gif"></img>
+</div>
+
