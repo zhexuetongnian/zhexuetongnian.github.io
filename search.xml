@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/05/03/hello-world/</url>
-    <content><![CDATA[<p>Hello, guys! </p>
-<p>This is my first post. Although I came across lots of difficulties, I eventually finished the basic frame. So I wrote this post to record this historical moment. </p>
-<p>I am not trying to make this site known to many people. I just want this site to be a friend who can sincerely listen to my happiness and complaints.</p>
-<p>Thus, this is a fresh start and I will sting to update my blog. If you are coincidently interested in my content, welcome to <span class="label primary">follow</span>, <span class="label success">comment</span> and <span class="label danger">share</span>!</p>
-]]></content>
-  </entry>
-  <entry>
     <title>First blog</title>
     <url>/2022/05/21/first-blog/</url>
     <content><![CDATA[<p>This is my first formal blog, which is mainly used to test the deployment of content in various formats.</p>
@@ -103,5 +94,30 @@
       <tags>
         <tag>Hexo</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/05/03/hello-world/</url>
+    <content><![CDATA[<p>Hello, guys! </p>
+<p>This is my first post. Although I came across lots of difficulties, I eventually finished the basic frame. So I wrote this post to record this historical moment. </p>
+<p>I am not trying to make this site known to many people. I just want this site to be a friend who can sincerely listen to my happiness and complaints.</p>
+<p>Thus, this is a fresh start and I will sting to update my blog. If you are coincidently interested in my content, welcome to <span class="label primary">follow</span>, <span class="label success">comment</span> and <span class="label danger">share</span>!</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>New semester</title>
+    <url>/2024/02/20/semester/</url>
+    <content><![CDATA[<div class="note danger">
+            <h3 id="New-semester"><a href="#New-semester" class="headerlink" title="New semester"></a>New semester</h3>
+          </div>
+
+<p>New semester again. It has been a long time since the last blog. It was all because I’m extremely lazy instead of any other reasons. <img src="/2024/02/20/semester/image-20240220130327168.png" alt="image-20240220130327168"><img src="/2024/02/20/semester/image-20240220130419522.png" alt="image-20240220130419522"></p>
+<p>Although I have made countless resolutions to change, there still haven’t appeared any symbol of improvement. But this cannot hinder me from making up my mind again.<img src="/2024/02/20/semester/image-20240220131435825.png" alt="image-20240220131435825"><img src="/2024/02/20/semester/image-20240220131504195.png" alt="image-20240220131504195"></p>
+<p>So I must abandon the bad habit of laziness in the new semester. And I will update my blog as much and quickly as possible.<img src="/2024/02/20/semester/image-20240220132416701.png" alt="image-20240220132416701"></p>
+<p>Welcome all of you to supervise me.</p>
+]]></content>
+      <categories>
+        <category>Idle thoughts</category>
+      </categories>
   </entry>
 </search>
