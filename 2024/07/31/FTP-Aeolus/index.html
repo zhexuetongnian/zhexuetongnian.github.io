@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content=#58b77a>
-  <title>Archives | Free Fly</title>
+  <title>FTP-Aeolus | Free Fly</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="ztong">
   <meta name="keywords" content="">
@@ -63,8 +63,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">
 <meta name="generator" content="Hexo 6.1.0"></head>
 <body>
-
-<div id="page">
+<div class="single">
 <div class="popup search-popup local-search-popup">
   <div class="local-search-header clearfix">
     <span class="search-icon">
@@ -82,15 +81,16 @@
   <div id="local-search-result"></div>
 </div>
 
+<div id="page">
 <div class="header">
-  <div id="lx-aside" style="background-image: url(/my_images/13_5.jpg)">
+  <div id="lx-aside" style="background-image: url(/my_images/heng.jpg)" data-stellar-background-ratio="0.5">
     <div class="overlay">
       <a href="javascript:;" class="popup-trigger" title="search"><i class="menu-item-icon fa fa-search fa-fw"></i></a>
-      <div class="featured">
+      <div class="page-title">
         <div class="avatar"><a href="/"><img src="/dist/images/ava.min.jpeg" alt="ztong"></a></div>
-        <span>ztong</span>
-        <h1>Free Fly</h1>
-        
+        <span>2024-07-31</span>
+        <h2>FTP-Aeolus</h2>
+        <div class="tags"><i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/Aeolus/" rel="tag">Aeolus</a></div>
         <div class="social-links">
     <a href="https://github.com/zhexuetongnian" target="_blank" title="social-link"><i class="fa fa-github fa-fw"></i></a>
     <a href="mailto:l0bl@outlook.com" target="_blank" title="social-link"><i class="fa fa-envelope fa-fw"></i></a>
@@ -101,27 +101,70 @@
 </div>
 <div id="lx-main-content">
   <div class="lx-post">
-  <h2 class="pagehead">Archives</h2>
-    <div class="lx-entry padding"><div>
-    <span class="lx-post-detail">2024-08-05</span>
-    <h2 class="title"><a href="/2024/08/05/python-Wyoming/">python-Wyoming</a></h2>
-    <p><i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/sonde/" rel="tag">sonde</a></p></div></div><div class="lx-entry padding"><div>
-    <span class="lx-post-detail">2024-07-31</span>
-    <h2 class="title"><a href="/2024/07/31/FTP-Aeolus/">FTP-Aeolus</a></h2>
-    <p><i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/Aeolus/" rel="tag">Aeolus</a></p></div></div><div class="lx-entry padding"><div>
-    <span class="lx-post-detail">2024-02-20</span>
-    <h2 class="title"><a href="/2024/02/20/semester/">New semester</a></h2>
-    <p></p></div></div>
+    <div class="lx-entry padding">
+      <div>
+        <h1 id="一-Aeolus卫星概况"><a href="#一-Aeolus卫星概况" class="headerlink" title="一. Aeolus卫星概况"></a>一. Aeolus卫星概况</h1><p>Aeolus卫星作为第一颗观测全球范围风廓线的多普勒激光雷达卫星，于2018年8月22日发射升空。其以7天的重复周期运行在约320km的太阳同步轨道上。ESA目前已发布了由其原始数据生产的多种产品：Level-1B初始产品、Level-2A气溶胶&#x2F;云光学产品、Level-2B科学风产品和Level-2C同化风产品等（<a target="_blank" rel="noopener" href="https://aeolus-ds.eo.esa.int/oads/access/%EF%BC%89%E3%80%82">https://aeolus-ds.eo.esa.int/oads/access/）。</a></p>
+<p>Aeolus卫星提供的全球风廓线数据可广泛应用于数值天气预报、理解大气污染传播机理、极端天气预测等领域。</p>
+<h1 id="二-Aeolus卫星数据下载"><a href="#二-Aeolus卫星数据下载" class="headerlink" title="二. Aeolus卫星数据下载"></a>二. Aeolus卫星数据下载</h1><ol>
+<li><p><strong>注册ESA账号</strong><br>登录ESA官网（<a target="_blank" rel="noopener" href="https://aeolus-ds.eo.esa.int/oads/access/login%EF%BC%89%EF%BC%8C%E6%B3%A8%E5%86%8C%E4%B8%80%E4%B8%AAESA%E8%B4%A6%E5%8F%B7">https://aeolus-ds.eo.esa.int/oads/access/login），注册一个ESA账号</a><br><img src="/2024/07/31/FTP-Aeolus/../../../Typora/photo/1493b9266e8c6135e7eb2caaf9391a85.png" alt="请添加图片描述"></p>
+</li>
+<li><p><strong>下载FileZilla</strong><br>上FileZilla官网(<a target="_blank" rel="noopener" href="https://www.filezilla.cn/)%E5%8D%B3%E5%8F%AF%E5%85%8D%E8%B4%B9%E4%B8%8B%E8%BD%BD">https://www.filezilla.cn/)即可免费下载</a></p>
+</li>
+<li><p><strong>Aeolus数据下载</strong><br>打开FileZilla，输入主机、用户名、密码等，然后点击连接，右侧（图中的4区域）就会出现Aeolus服务器上的数据文件夹。</p>
+</li>
+</ol>
+<ul>
+<li><p>主机：<code>aeolus-ds.eo.esa.int</code></p>
+</li>
+<li><p>用户名、密码：输入第一步注册的用户名和密码</p>
+<p>  <img src="/2024/07/31/FTP-Aeolus/../../../Typora/photo/3c26f10d5ed006aca4e979e3b155dc42.png" alt="请添加图片描述"></p>
+</li>
+</ul>
+<p>​	点进ADDF文件夹，就会出现Aeolus的多种产品。</p>
+<p><img src="/2024/07/31/FTP-Aeolus/../../../Typora/photo/f53736b7ae353db1c7771eb54df44478.png" alt="请添加图片描述"></p>
+<p>​	可以右键点击下载，也可以直接将文件拖拽入本地</p>
 
+      </div>
+    </div>
+  </div>
+</div>
+<div class="lx-navigation">
+        <div class="lx-cover next lx-cover-sm" style="background-image: url(/my_images/heng_2.jpg)">
+		<div class="overlay"></div>
+		<a class="copy" href="/2024/02/20/semester/">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Prev</span>
+						<h3>New semester</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="lx-cover prev lx-cover-sm" style="background-image: url(/my_images/heng_3.jpg)">
+		<div class="overlay"></div>
+		<a class="copy" href="/2024/08/05/python-Wyoming/">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Next</span>
+						<h3>python-Wyoming</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
 
+</div>
+<div class="comment"><div id="comments"></div></div>
 <footer>
   <div>
   Copyright &copy; 2024.<a href="/">Free Fly</a><br>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Author <a href="https://zhexuetongnian.github.io/" target="_blank">Ztong</a><br>
   </div>
 </footer>
 
-  </div>
-</div>
 </div>
 
 <button class="hamburger hamburger--arrow-r" type="button" title="menu">
@@ -200,7 +243,26 @@
 }());
 </script>
 <script src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/local.search.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4.16/dist/Valine.min.js"></script>
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'DNdqxqUfduTmKDWvH49dmLdE-gzGzoHsz',
+    appKey: 'gGX4Bu7Kxw6Q0HBF7HOqny17',
+    placeholder: 'Say something.',
+    avatar: 'identicon',
+    meta: guest,
+    pageSize: '10' || 10,
+    lang: 'en' || 'zh-cn'
+  });
+</script>
 
 </body>
 </html>
