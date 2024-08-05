@@ -121,7 +121,7 @@
       </categories>
   </entry>
   <entry>
-    <title>FTP-Aeolus</title>
+    <title>FTP下载Aeolus卫星产品数据</title>
     <url>/2024/07/31/FTP-Aeolus/</url>
     <content><![CDATA[<h1 id="一-Aeolus卫星概况"><a href="#一-Aeolus卫星概况" class="headerlink" title="一. Aeolus卫星概况"></a>一. Aeolus卫星概况</h1><p>Aeolus卫星作为第一颗观测全球范围风廓线的多普勒激光雷达卫星，于2018年8月22日发射升空。其以7天的重复周期运行在约320km的太阳同步轨道上。ESA目前已发布了由其原始数据生产的多种产品：Level-1B初始产品、Level-2A气溶胶&#x2F;云光学产品、Level-2B科学风产品和Level-2C同化风产品等（<a href="https://aeolus-ds.eo.esa.int/oads/access/%EF%BC%89%E3%80%82">https://aeolus-ds.eo.esa.int/oads/access/）。</a></p>
 <p>Aeolus卫星提供的全球风廓线数据可广泛应用于数值天气预报、理解大气污染传播机理、极端天气预测等领域。</p>
@@ -154,7 +154,7 @@
       </tags>
   </entry>
   <entry>
-    <title>python-Wyoming</title>
+    <title>python下载Wyoming大学网站探空数据</title>
     <url>/2024/08/05/python-Wyoming/</url>
     <content><![CDATA[<h1 id="0-说明"><a href="#0-说明" class="headerlink" title="0 说明"></a>0 说明</h1><p>已有很多作者发布了有关下载怀俄明大学探空数据的博客，但使用python的较少。且近期发现网站上<mark>中国地区的站点都消失了</mark>。发邮件询问了一下，原来是中国提供的数据格式更改成了BURF，<mark>他们在一个新的网站上提供这些数据：<a href="http://weather.uwyo.edu/upperair/bufrraob.shtml%E3%80%82%E6%96%B0%E7%9A%84%E7%BD%91%E7%AB%99%E4%B8%8A%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%E4%B8%AD%E5%9B%BD%E5%9C%B0%E5%8C%BA%E7%9A%84%E7%AB%99%E7%82%B9">http://weather.uwyo.edu/upperair/bufrraob.shtml。新的网站上可以看到中国地区的站点</a></mark>。</p>
 <p>下面开始正题</p>
@@ -199,6 +199,7 @@
       </categories>
       <tags>
         <tag>sonde</tag>
+        <tag>python</tag>
       </tags>
   </entry>
 </search>
